@@ -9,7 +9,8 @@ var win;
 function createWindow() {
 	win = new BrowserWindow({
 		width : 500,
-		height : 300
+		height : 300,
+		autoHideMenuBar : false
 	});
 
 	// 加载应用的 index.html。
